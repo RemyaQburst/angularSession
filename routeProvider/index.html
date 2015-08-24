@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AngularJS Routing example</title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+ 
+  <body ng-app="sampleApp">
+    <header>
+        <ul class="nav nav-pills">
+          <li role="presentation"><a href="#home">Home</a></li>
+          <li role="presentation"><a href="#showOrders">Show Order</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="row">
+       <!--  <div class="col-md-3">
+            <ul class="nav">
+                <li><a href="#addOrder">AddNewOrder </a></li>
+                <li><a href="#showOrders">Show Order</a></li>
+            </ul>
+        </div> -->
+        <div class="col-md-9">
+            <div ng-view></div>
+        </div>
+        </div>
+    </div>
+    <footer>
+      <span>Copyright@xxx</span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+     <script src="js/app.js"></script>
+     <script src="controller/addcontroller.js"></script>
+     <script src="controller/showcontroller.js"></script> 
+  </body>
+</html>

@@ -1,0 +1,16 @@
+html,body {
+	position:relative;
+	height:100%;
+}
+header{
+	width:100%;
+	padding:20px 20px;
+	background: #ccc;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	background: #ccc;
+	width:100%;
+}
